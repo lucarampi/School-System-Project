@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const credentials = require('./credentials.json');
+const credentials = require('./your_credentials.json');
 const app = express();
 
 mongoose.connect(credentials.db.mongoDB.host, { useNewUrlParser: true, useUnifiedTopology: true });
