@@ -1,0 +1,18 @@
+{
+  "name": "ssp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "system.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Alfaro Rampinelli <luca.alfaro.rampinelli@gmail.com> (https://github.com/lucarampi)",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  }
+}
