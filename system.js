@@ -56,6 +56,6 @@ app.post('/',(req,res)=>{
 
 
 
-app.listen(credentials.db.mongoDB.port, () => {
-    console.log(`Server is running! (port ${credentials.db.mongoDB.port})`)
+app.listen(credentials.port, () => {
+    console.log(`Server is running! (port ${credentials.port})`)
 })
